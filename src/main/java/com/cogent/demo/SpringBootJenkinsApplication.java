@@ -18,7 +18,7 @@ public class SpringBootJenkinsApplication {
 	}
 
 	public static void main(String[] args) {
-		log.error("Found Error in First line of main");
+		log.error("Found Our First Statement from main");
 		SpringApplication.run(SpringBootJenkinsApplication.class, args);
 	}
 
